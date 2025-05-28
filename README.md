@@ -33,6 +33,7 @@ No futuro, também está prevista a criação de uma interface front-end utiliza
 
 ## 📁 Estrutura Planejada do Projeto
 
+```bash
 /src
     ├── Application # Casos de uso e lógica da aplicação
     ├── Domain # Entidades e interfaces
@@ -41,7 +42,7 @@ No futuro, também está prevista a criação de uma interface front-end utiliza
 /tests
     ├── UnitTests # Testes unitários
     ├── IntegrationTests # Testes de integração
-
+```
 
 ---
 
