@@ -20,11 +20,11 @@ No futuro, também está prevista a criação de uma interface front-end utiliza
 
 - **Linguagem**: C#
 - **Framework**: ASP.NET Core
-- **Banco de Dados**: SQLite (ou SQL Server)
+- **Banco de Dados**: MongoDB 
 - **ORM**: Entity Framework Core
 - **Mapeamento de Objetos**: AutoMapper
 - **Autenticação**: JWT (JSON Web Token)
-- **Testes**: xUnit ou NUnit
+- **Testes**: xUnit
 - **Documentação da API**: Swagger
 - **Versionamento de Código**: Git + GitHub
 - **Editor**: Visual Studio 2022 ou superior
@@ -67,19 +67,19 @@ No futuro, também está prevista a criação de uma interface front-end utiliza
 ## 📌 Como Executar
 
 > Pré-requisitos:
-> - .NET SDK 6.0 ou superior
+> - .NET SDK 8.0 ou superior
 > - Visual Studio ou VS Code
-> - Banco de dados configurado (SQLite ou SQL Server)
+> - Banco de dados configurado (MongoDB)
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/LuizAndreR/ApiGerenciadorTarefas.git
 
 # Acesse o diretório do projeto
-cd seu-repositorio
+cd ApiGerenciadorTarefas
 
 # Restaure as dependências
 dotnet restore
 
 # Execute a aplicação
-dotnet run --project src/WebAPI
+dotnet run --project src/ApiGerencidorTarefas.Api
