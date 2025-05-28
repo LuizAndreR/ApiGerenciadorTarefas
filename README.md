@@ -34,13 +34,13 @@ No futuro, também está prevista a criação de uma interface front-end utiliza
 ## 📁 Estrutura Planejada do Projeto
 
 /src
-├── Application # Casos de uso e lógica da aplicação
-├── Domain # Entidades e interfaces
-├── Infrastructure # Acesso a dados e serviços externos
-├── WebAPI # Camada de apresentação (controllers, middlewares)
+    ├── Application # Casos de uso e lógica da aplicação
+    ├── Domain # Entidades e interfaces
+    ├── Infrastructure # Acesso a dados e serviços externos
+    ├── WebAPI # Camada de apresentação (controllers, middlewares)
 /tests
-├── UnitTests # Testes unitários
-├── IntegrationTests # Testes de integração
+    ├── UnitTests # Testes unitários
+    ├── IntegrationTests # Testes de integração
 
 
 ---
