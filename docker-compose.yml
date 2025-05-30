@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo
+    container_name: mongodb-gerenciadortarefas
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: luiz
+      MONGO_INITDB_ROOT_PASSWORD: luiz123
+
+  apigerenciador:
+    build:
+      context: .
+      dockerfile: ApiGerenciadorTarefas.Api/Dockerfile
+    container_name: apigerenciador
+    ports:
+      - 5000:8080 
+    depends_on:
+      - mongo
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
